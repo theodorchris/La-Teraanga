@@ -96,28 +96,31 @@ animation-fill-mode: backwards;
 #teraanga {
     height: 200px;
     padding: 15px 0 0 0;
-    background-color: green;
-    
+    background-color: #3a3a3a;
+    border-top: 2px solid #fff;  
 }
 p {
     text-align: center;
     width: 33%;
     margin: 0 auto;
-    color: black;
+    color: #fff;
 }
 
 /*Meeting point style*/
 
 #places {
-    color: yellowgreen;
-    background-color: #fff;
+    color: #fff;
+    background-color: #3a3a3a;
     text-align: center;
+    border-top: 2px solid #fff;
 }
 
 #places div {
     box-sizing: border-box;
-    border: 2px solid white;
     float: left;
+    padding: 10px 10px 10px;
+    width: 25%;
+    border: 1px solid black;
 }
 
 h2 {
