@@ -18,7 +18,7 @@ header {
     height: 80px;
 }
 
-h1,h2 {
+h1 {
     font-family: Cairo, sans-serif;
     letter-spacing: 3px;
     color: crimson;
@@ -74,7 +74,7 @@ h1,h2 {
     width: 100%;
     height: 750px;
     background: url(../images/main-image.jpg) no-repeat center center;
-
+    padding-bottom: 30px;
 
 /* zoom on loading page effect*/
 animation-name: main-zoom;
@@ -95,10 +95,31 @@ animation-fill-mode: backwards;
 /*Teraanga meaning style*/
 #teraanga {
     height: 200px;
-    padding-top: 25px;
+    padding: 15px 0 0 0;
+    background-color: green;
+    
 }
 p {
     text-align: center;
     width: 33%;
     margin: 0 auto;
+    color: black;
+}
+
+/*Meeting point style*/
+
+#places {
+    color: yellowgreen;
+    background-color: #fff;
+    text-align: center;
+}
+
+#places div {
+    box-sizing: border-box;
+    border: 2px solid white;
+    float: left;
+}
+
+h2 {
+    color: violet;
 }
