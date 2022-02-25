@@ -75,7 +75,7 @@ h1 {
     height: 750px;
     background: url(../images/main-image.jpg) no-repeat center center;
     padding-bottom: 30px;
-
+    
 /* zoom on loading page effect*/
 animation-name: main-zoom;
 animation-duration: 7s;
@@ -94,22 +94,23 @@ animation-fill-mode: backwards;
 
 /*Teraanga meaning style*/
 #teraanga {
-    height: 200px;
-    padding: 15px 0 0 0;
-    background-color: #3a3a3a;
-    border-top: 1px solid #fff;  
+    height: 400px;
+    padding-top: 150px;
+    background-color: #fff;
+    border-top: 1px solid #3a3a3a;  
 }
 p {
     text-align: center;
     width: 33%;
     margin: 0 auto;
-    color: #fff;
+    color: #3a3a3a;
+    padding-bottom: 150px;
 }
 
 /*Meeting point style*/
 
 .food-spots {
-    padding: 20px;
+    padding: 25px 0 25px 0;
 }
 
 #places {
