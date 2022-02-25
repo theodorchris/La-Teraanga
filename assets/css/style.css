@@ -97,7 +97,7 @@ animation-fill-mode: backwards;
     height: 200px;
     padding: 15px 0 0 0;
     background-color: #3a3a3a;
-    border-top: 2px solid #fff;  
+    border-top: 1px solid #fff;  
 }
 p {
     text-align: center;
@@ -108,11 +108,15 @@ p {
 
 /*Meeting point style*/
 
+.food-spots {
+    padding: 20px;
+}
+
 #places {
     color: #fff;
     background-color: #3a3a3a;
     text-align: center;
-    border-top: 2px solid #fff;
+    border-top: 1px solid #fff;
 }
 
 #places div {
@@ -121,8 +125,29 @@ p {
     padding: 10px 10px 10px;
     width: 25%;
     border: 1px solid black;
+    background-color: #3a3a3a;
 }
 
 h2 {
     color: violet;
+}
+
+/*Footer style*/
+
+footer {
+    height: 150px;
+    padding: 12% 0 0 0;
+    border-bottom: 30px solid black;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.contact {
+    margin-right: 50%;
 }
