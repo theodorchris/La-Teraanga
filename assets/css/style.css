@@ -169,3 +169,24 @@ footer {
     color: black;
     font-size: x-large;
 }
+
+/*Photo gallery*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: url(https://i.imgur.com/MoyStLC.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#photos > img {
+    width: 60%;
+    margin: 30px;
+   }
+
+
