@@ -129,7 +129,7 @@ p {
 #places div {
     box-sizing: border-box;
     float: left;
-    padding: 10px 10px 30px;
+    padding: 10px 10px 50px;
     width: 25%;
     border: 1px solid black;
     background-color: #3a3a3a;
@@ -182,5 +182,29 @@ footer {
     width: 60%;
     margin: 30px;
    }
+
+   /* Media queries */
+
+   /* For larger to medium screen size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #terranga {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .about-us {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    p {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+}
+    
 
 
