@@ -74,7 +74,7 @@ h1 {
     width: 100%;
     height: 750px;
     background: url(../images/main-image.jpg) no-repeat center center;
-    padding-bottom: 30px;
+    padding-top: 50px;
     background-position: center;
     
 /* zoom on loading page effect*/
@@ -162,12 +162,6 @@ footer {
     font-size: 115%;
     padding-bottom: 25px;
     color: #3a3a3a;
-}
-
-.contact {
-    margin-right: 33%;
-    color: black;
-    font-size: x-large;
 }
 
 /*Photo gallery*/
