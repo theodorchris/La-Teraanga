@@ -204,7 +204,32 @@ footer {
         padding: 0;
     }
 
+    #logo {
+        padding-top: 30px;
+        
+    }
+
+    #menu, #logo {
+        clear: left;
+        width: 65%;
+        line-height: 45px;
+        padding-right: 30px;
+    }
+
 }
+
+/*For medium screen sizes from 950px wide and down*/
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+}
+    
     
 
 
