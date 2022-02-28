@@ -24,7 +24,7 @@ h1 {
 }
 
 #logo {
-    float:left;
+    float: left;
     font-size: 240%;
     padding-left: 50px;
 }
@@ -38,7 +38,8 @@ h1 {
     padding-right: 50px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -46,7 +47,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 15px;
-} 
+}
 
 #menu a {
     color: inherit;
@@ -66,28 +67,30 @@ h1 {
 #main-outer {
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 650px;
+    padding: 0;
+    background-color: #3a3a3a;
 }
 
 #main-image {
     width: 100%;
-    height: 750px;
-    background: url(../images/main-image.jpg) no-repeat center center;
-    padding-top: 50px;
-    background-position: center;
-    
-/* zoom on loading page effect*/
-animation-name: main-zoom;
-animation-duration: 7s;
-animation-fill-mode: backwards;
+    height: 650px;
+    background: url("../images/main-image-girl.jpg") no-repeat center center;
+
+    /* zoom on loading page effect*/
+    animation-name: main-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: backwards;
 }
+
 /*Level zoom of main image*/
 
 @keyframes main-zoom {
-    from{
-         transform: scale(1.1);
+    from {
+        transform: scale(1.1);
     }
-    to{
+
+    to {
         transform: scale(1);
     }
 }
@@ -103,8 +106,9 @@ animation-fill-mode: backwards;
     height: 200px;
     padding-top: 50px;
     background-color: rgba(255, 255, 255, 0.253);
-    border-top: 1px solid #fff; 
+    border-top: 1px solid #fff;
 }
+
 p {
     text-align: center;
     width: 33%;
@@ -120,7 +124,7 @@ p {
 }
 
 #places {
-    color: #fff;
+    color: rgb(238, 231, 208);
     background-color: #3a3a3a;
     text-align: center;
     border-top: 1px solid #fff;
@@ -136,33 +140,38 @@ p {
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(31, 182, 31);
 }
 
 /*Footer style*/
 
 footer {
-    height: 150px;
+    height: 180px;
 }
 
+.social h3 {
+    color: crimson;
+    text-align: center;
+    padding-top: 180px;
+}
 .social {
-    
+
     padding-top: 10px;
     border-bottom: 10px solid black;
-    background-color: #a19595;
+    background-color: #3a3a3a;
     text-align: center;
 }
 
-.social > li {
+.social>li {
     display: inline;
     padding: 0 30px 0 30px;
-    
+
 }
 
 .social i {
     font-size: 135%;
     padding-bottom: 25px;
-    color: #3a3a3a;
+    color: crimson;
     padding-top: 25px;
 }
 
@@ -178,14 +187,14 @@ footer {
     padding-right: 100px;
 }
 
-#photos > img {
+#photos>img {
     width: 90%;
     margin: 30px;
-   }
+}
 
-   /* Media queries */
+/* Media queries */
 
-   /* For larger to medium screen size from 1200px and down */
+/* For larger to medium screen size from 1200px and down */
 @media screen and (max-width: 1200px) {
     #logo {
         padding: 25px 25px 15px;
@@ -216,7 +225,7 @@ footer {
         margin-bottom: 5px;
     }
 
-    #places > div {
+    #places>div {
         width: 100%;
         clear: both;
         line-height: 20px;
@@ -227,7 +236,7 @@ footer {
         padding-top: 30px;
         width: 15%;
     }
-    
+
 }
 
 /*For medium screen sizes from 800px wide and down*/
@@ -236,6 +245,7 @@ footer {
     #logo {
         font-size: 200%;
     }
+
     #menu {
         clear: left;
         float: left;
@@ -244,7 +254,7 @@ footer {
         line-height: 25px;
         display: inline;
         padding: 0;
-        font-size: 5s0%;
+        font-size: 50%;
         margin-right: 0px;
         text-align: center;
     }
@@ -264,7 +274,31 @@ footer {
         column-count: 1;
     }
 }
-    
-    
 
+/*Food menu style*/
 
+#section {
+    width: 100%;
+}
+
+.food-menu {
+    height: 1200px;
+    text-align: center;
+    color: #fff;
+    background-color: brown;
+    padding-top: 50px;
+}
+
+.food-menu h1 {
+    font-size: 300%;
+    color: black;
+}
+
+.food-menu h2 {
+    color: black;
+    font-size: 220%;
+}
+
+.food-menu h3 {
+    word-spacing: 5px;
+}
