@@ -209,6 +209,95 @@ footer {
     margin: 30px;
 }
 
+/*Food menu style*/
+
+#section {
+    width: 100%;
+}
+
+.food-menu {
+    height: 1200px;
+    text-align: center;
+    color: #fff;
+    background-color: brown;
+    padding-top: 150px;
+}
+
+.food-menu h1 {
+    font-size: 300%;
+    color: black;
+}
+
+.food-menu h2 {
+    color: black;
+    font-size: 220%;
+}
+
+.food-menu h3 {
+    word-spacing: 5px;
+}
+
+
+
+/*Contact Us page style*/
+
+.contact-section {
+    clear: left;
+    background: url(../images/main-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height:900px;
+}
+
+.contact-form {
+    height: 30%;
+    margin:100px 10% 0 0;
+    color: #fff;
+    background-color: rgba(187, 16, 16, 0.8);
+    max-width: 600px;
+    position: absolute;
+    left:10%;
+    padding:50px 90px 60px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width:50%;
+    height:25px;
+    margin:5px 0 0px;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-input:hover{
+    border-color:#f16c6b;
+}
+
+
+.send-button {
+    margin-top:5px;
+    border-radius:2px;
+    padding: 5px 10px 5px 10px;
+    text-align:center;
+    font-size:100%;
+    background-color: inherit;
+    color: black;
+    display:block;
+    margin-left: 33%;
+}
+
+.send-button:hover{
+    background-color: #fafafa;
+    color: black;
+}
 /* Media queries */
 
 /* For larger to medium screen size from 1200px and down */
@@ -258,7 +347,7 @@ footer {
 
 /*For medium screen sizes from 800px wide and down*/
 @media screen and (max-width: 800px) {
-
+/*Home Page*/
     #logo {
         font-size: 150%;
     }
@@ -271,7 +360,7 @@ footer {
         line-height: 25px;
         display: inline;
         padding: 0;
-        font-size: 50%;
+        font-size: 70%;
         margin-right: 0px;
         text-align: center;
     }
@@ -287,18 +376,34 @@ footer {
         padding: 20px 5px 20px;
     }
 
+   /*Gallery*/
+
     #photos {
         column-count: 1;
+    }
+
+    /*Contact page*/
+    .contact-form {
+        position: absolute;
     }
 }
 
 /*For medium screen sizes from 500px wide and down*/
 @media screen and (max-width: 500px) {
 
+    /*Home page*/
     #logo {
-        font-size: 100%;
+        font-size: 80%;
     }
 
+    span {
+        font-size: 20%;
+    }
+
+    #menu {
+        font-size: 40%;
+    }
+    
     #terranga {
         width: 50%;
         height: 1200px;
@@ -312,35 +417,18 @@ footer {
     p {
         font-size: smaller;
     }
+
+    /*Contact page */
+
+    .contact-form {
+        position: relative;
+        max-width: 30%;
+        padding-left: 10px;
+        padding-right: 150px;
+        padding-bottom: 100px;
+    }
+
 }
 
 
-
-/*Food menu style*/
-
-#section {
-    width: 100%;
-}
-
-.food-menu {
-    height: 1200px;
-    text-align: center;
-    color: #fff;
-    background-color: brown;
-    padding-top: 150px;
-}
-
-.food-menu h1 {
-    font-size: 300%;
-    color: black;
-}
-
-.food-menu h2 {
-    color: black;
-    font-size: 220%;
-}
-
-.food-menu h3 {
-    word-spacing: 5px;
-}
 
