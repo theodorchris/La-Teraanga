@@ -23,9 +23,15 @@ h1 {
     color: crimson;
 }
 
+span h2 {
+    color: crimson;
+    font-size: smaller;
+    display: inline;
+}
+
 #logo {
     float: left;
-    font-size: 240%;
+    font-size: 250%;
     padding-left: 50px;
 }
 
@@ -337,3 +343,4 @@ footer {
 .food-menu h3 {
     word-spacing: 5px;
 }
+
