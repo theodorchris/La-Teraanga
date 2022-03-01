@@ -24,8 +24,8 @@ h1 {
 }
 
 span h2 {
-    color: crimson;
-    font-size: smaller;
+    color: rgb(10, 146, 10);
+    font-size: 50%;
     display: inline;
 }
 
