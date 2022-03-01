@@ -419,22 +419,31 @@ span h3 {
 
     /*Home page*/
     #logo {
-        font-size: 70%;
+        font-size: 50%;
     }
 
     span h2 {
         font-size: 50%;
         padding: 0;
+        letter-spacing: 2px;
     }
 
     #menu {
-        font-size: 10%;
         padding-right: 0;
         margin: 0;
+        border: 0;
+        letter-spacing: 1px;
+        
+        margin-left: 30px;
+        padding-bottom: 20px;
     }
-    #menu li {
-        margin-right: 0;
-        padding: 5px;
+
+    #menu a {
+        padding: 0;
+        word-spacing: 1px;
+        float: left;
+        display: inline;
+        font-size: 3%;
     }
 
 
