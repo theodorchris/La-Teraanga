@@ -40,7 +40,7 @@ span em {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
-    color: aliceblue;
+    color: crimson;
     padding-right: 50px;
 }
 
@@ -80,7 +80,7 @@ span em {
 
 #main-outer h2 {
     text-align: center;
-    color: crimson;
+    color: rgb(10, 146, 10);
     letter-spacing: 5px;
     font-size: xx-large;
 }
@@ -89,7 +89,7 @@ span em {
     overflow: hidden;
     width: 100%;
     height: 750px;
-    background: url("../images/main-image-girl.jpg") no-repeat center center;
+    background: url("../images/main-image-small.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
     clear: left;
@@ -161,14 +161,14 @@ p {
 }
 
 h2 {
-    color: rgb(31, 182, 31);
+    color: rgb(10, 146, 10);
 }
 
 /*Footer style*/
 
 
 footer {
-    height: 180px;
+    height: 100px;
     padding-top: 180px;
     margin-top: 0;
 }
@@ -235,7 +235,7 @@ footer {
 }
 
 .food-menu {
-    height: 1000px;
+    height: 900px;
     text-align: center;
     color: #fff;
     background-color: brown;
