@@ -23,7 +23,7 @@ h1 {
     color: crimson;
 }
 
-span h2 {
+span em {
     color: rgb(10, 146, 10);
     font-size: 50%;
     display: inline;
@@ -78,6 +78,13 @@ span h2 {
     background-color: #3a3a3a;
 }
 
+#main-outer h2 {
+    text-align: center;
+    color: crimson;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+
 #main-image {
     overflow: hidden;
     width: 100%;
@@ -108,9 +115,10 @@ span h2 {
 /*Teraanga meaning style*/
 
 .about-us {
-    color: rgb(34, 14, 14);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 180%;
+    padding-bottom: 10px;
 }
 
 #teraanga {
@@ -118,7 +126,7 @@ span h2 {
     padding-top: 20px;
     background-color: rgba(230, 38, 38, 0.575);
     border-top: 1px solid #fff;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 p {
@@ -199,7 +207,7 @@ footer {
 /*Photo gallery*/
 
 #photos {
-    background-color: #f16c6b;
+    background-color: crimson;
     clear: both;
     line-height: 0;
     column-count: 2;
@@ -207,6 +215,12 @@ footer {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+#photos h2 {
+    padding-top: 20px;
+    color: #fafafa;
+    font-size: 150%;
 }
 
 #photos>img {
@@ -221,32 +235,40 @@ footer {
 }
 
 .food-menu {
-    height: 1200px;
+    height: 1000px;
     text-align: center;
     color: #fff;
     background-color: brown;
     padding-top: 150px;
 }
 
-.food-menu h1 {
+#menu-title {
     font-size: 300%;
     color: black;
+    padding-bottom: 15px;
 }
 
 .food-menu h2 {
     color: black;
     font-size: 220%;
+    padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 .food-menu h3 {
     word-spacing: 5px;
+    padding-top: 5px;
+}
+
+.food-list li {
+    padding: 5px;
 }
 
 
 
 /*Contact Us page style*/
 
-span h3 {
+span em {
     font-size: 50%;
 }
 
@@ -409,7 +431,22 @@ span h3 {
 
     #photos {
         column-count: 1;
+        padding-left: 30px;
     }
+
+    #photos h2 {
+        color: black;
+        font-size: 100%;
+    }
+
+    /*Food menu*/
+
+    .food-menu {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 1000px;
+    }
+
 
     /*Contact page*/
     .contact-form {
@@ -426,7 +463,7 @@ span h3 {
         font-size: 50%;
     }
 
-    span h2 {
+    span em {
         font-size: 50%;
         padding: 0;
         letter-spacing: 1px;
@@ -437,7 +474,7 @@ span h3 {
         margin: 0;
         border: 0;
         letter-spacing: 1px;
-        
+
         margin-left: 30px;
         padding-bottom: 20px;
     }
@@ -485,8 +522,29 @@ span h3 {
 
     /*Food menu responsive style*/
 
+
+
     .food-menu {
-        padding-bottom: 150px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 900px;
+    }
+
+
+    .food-menu h1 {
+        font-size: 180%;
+        padding-bottom: 15px;
+        padding-top: 0;
+    }
+
+
+    .food-menu h2 {
+        font-size: 150%;
+    }
+
+
+    .food-menu h3 {
+        font-size: 80%;
     }
 
     /*Contact page */
